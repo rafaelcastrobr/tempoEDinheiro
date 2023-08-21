@@ -24,8 +24,8 @@ class _AppScaffoldState extends State<AppScaffold> {
         backgroundColor: widget.backgroundColor,
         body: SafeArea(
           child: Padding(
-            padding: EdgeInsets.all(16),
-            child: SingleChildScrollView(child: widget.body),
+            padding: const EdgeInsets.all(16),
+            child: SingleChildScrollView(child: Center(child: widget.body,)),
           ),
         ),
       ),

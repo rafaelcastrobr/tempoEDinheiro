@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tempoEDinheiro/pages/info/info/info_page.dart';
+import '../pages/info/info_page.dart';
 
 void main() {
   runApp(const MyApp());
